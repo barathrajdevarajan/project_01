@@ -1,0 +1,33 @@
+footer {
+  color: white;
+  background-color: #212529;
+  width: 100%;
+  padding: 1rem;
+}
+
+.icon_grid {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  font-size: 1.4rem;
+  margin-left: 2rem;
+}
+
+svg {
+  margin-right: 1rem;
+}
+
+svg:hover {
+  transition: ease-in-out 0.5s;
+  color: yellow;
+}
+
+@media screen and (max-width: 500px) {
+  .icon_grid {
+    display: grid;
+    justify-items: center;
+  }
+}
